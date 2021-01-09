@@ -1,25 +1,8 @@
 {
   "name": "discord-temp-vc",
   "version": "1.0.0",
-  "main": "index.js",
-  "description": "Temp Voice Channel Bot",
-  "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "bugs": "http://github.com/DuckyGit/discord-temp-vc/issues",
-  "keywords": [
-    "JavaScript"
-  ],
-  "homepage": "https://github.com/DuckyGit/discord-temp-vc",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DuckyGit/discord-temp-vc.git"
-  },
-  "jspm": {
-    "directories": {},
-    "dependencies": {},
-    "devDependencies": {}
-  },
-  "dependencies": {}
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord-temp-channels": "^1.0.5"
+  }
 }
